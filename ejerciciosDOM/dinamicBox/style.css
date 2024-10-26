@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column; /* Mantener los inputs abajo */
+}
+.box {
+    width: 50px;
+    height: 50px;
+    border: 10px solid black;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    background-size: cover; /*Cubre la imagen todo el box*/
+    background-position: center; /*Centra la iamgen en el div*/
+    background-repeat: no-repeat; /*No repite la imagen en caso de ser pequeña*/
+}
+h1{
+    font-size: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombras para mejor visibilidad */
+}
+.controls {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+}
+.input-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.input-group label{
+    width: 150px;
+    margin-right: 10px;
+    text-align: left;
+}
+input[type="range"] {
+    flex-grow: 1;
+}
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+.inicio{
+    color: black;
+    background-color: white;
+    border-color: black;
+    padding: 5px;
+    margin: 0px 200px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.inicio a{
+    text-decoration: none;
+    color: black;
+}
+.inicio:hover{
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+    color: white;
+}
+.inicio a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+.inicio_home{
+    background: white;
+    color: black;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.inicio_home:hover{
+    background-color: #007bff;
+    transition: transform 0.08s ease-in-out; /* Transición suave */
+    color: white;
+}
+.inicio_home:active{
+    color: white;
+    background-color: rgb(29, 28, 30);
+}
+
+.inicio_home a{
+    font-weight: 460;
+    text-decoration: none;
+    color: black;
+    border-bottom: none;
+}
+
+.inicio_home a:hover{
+    color: white;
+    font-weight: 460;
+    border-bottom: none;
+}
